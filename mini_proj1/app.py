@@ -27,11 +27,11 @@ def init_video_capture():
 
 def send_alert_email():
     # Replace with your email and password
-    sender_email = 'parthbapat2020.comp@mmcoe.edu.in'
-    sender_password = 'PartH@44'
+    sender_email = 'abc.gmail.com'
+    sender_password = '********'
 
     # Recipient email
-    recipient_email = 'chinmaykale2020.comp@mmcoe.edu.in'
+    recipient_email = 'xyz.gmail.com'
 
     # Check if enough time has passed since the last email
     global last_email_time, email_interval
